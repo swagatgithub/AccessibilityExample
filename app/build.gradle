@@ -7,6 +7,15 @@ android {
     namespace 'com.compose.accessibilityapp'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding = true
+        //dataBinding true
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+
     defaultConfig {
         applicationId "com.compose.accessibilityapp"
         minSdk 21
